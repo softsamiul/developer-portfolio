@@ -2,6 +2,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
 }
 h1 {
     font-size: 50px;
@@ -14,6 +19,35 @@ h1 {
     color: orange;
 
 }
+#welcome-section {
+    background-image: url(images/top-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .welcome-section-wrapper {
     display: flex;
+}
+/* .half-width {
+    width: 50%;
+} */
+.welcome-image {
+    max-width: 350px;
+    max-height: 350px;
+    margin: 0 auto;
+    align-items: center;
+}
+.welcome-left-section {
+    width: 60%;
+}
+.welcome-right-section {
+    width: 40%;
+}
+.hire-me-btn {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
 }
